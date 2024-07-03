@@ -52,3 +52,69 @@ let userAge = 30;
 ## Question 6 : Which kind of operator is the = operator?
 
 **Answer:** The = operator is an assignment operator.
+
+---
+# Questions and Answers about Variables and Operators
+
+## Question 1 : Where do "data types" come into play ?
+
+**Answer:** Data you work with in your code is of different type -e.g. numbers,text etc... 
+
+---
+## Question 2 : Which of the followwing statements correctly creates a number and stores it in a constant ?
+```javascript 
+const userAge = '30';
+```
+```javascript 
+const userAge = let 30;
+```
+```javascript 
+const userAge = 30;
+```
+
+**Answer:** This is correct : 
+```javascript 
+const userAge = 30;
+```
+---
+## Question 3 : Is 30 the same as '30' ? 
+
+**Answer:** No.
+
+---
+
+## Question 4 : Which of the following snippets will NOT yield an error ?
+
+```javascript 
+let myOtherName;
+const myName = 'Max';
+myName='Max';
+alert(myName);
+```
+```javascript 
+let myOtherName;
+const myName = 'Max';
+myOtherName='Max';
+alert(myName);
+```
+```javascript 
+let myOtherName;
+const myName = 'Max';
+myName=30;
+alert(myName);
+```
+
+**Answer:** This is correct : 
+```javascript 
+let myOtherName;
+const myName = 'Max';
+myOtherName='Max';
+alert(myName);
+```
+
+## Question 5 : Givent that JavaScript is a weakly typed, dynamic language, would you expect that this code works ? 
+```javascript 
+let myName = 'Max';
+myName = 30;
+```
+**Answer:** This code snippet will work. Variables in JavaScript are NOT tied to data types. 
